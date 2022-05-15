@@ -4,22 +4,249 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- Bootstrap -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+        <!-- Google Font -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+        <!-- Font Awesome -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+        <!-- CSS -->
         <link rel="stylesheet" href="style.css">
+        <!-- Global site tag (gtag.js) - Google Analytics -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-DV2QJ1YYZL"></script>
+        <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'G-DV2QJ1YYZL');
+        </script>
+        <!-- Title -->
         <title>Wayne Célestin</title>
     </head>
     <body>
+        <!-- Navbar -->
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <!-- Container wrapper -->
+            <div class="container-fluid">
+                <!-- Navbar brand -->
+                <a class="navbar-brand mt-2 mt-lg-0" href="/">
+                    <span class="fs-5">Wayne <strong>Célestin</strong></span>
+                </a>
 
-        <!-- <form id="contact_form" method="POST" action="https://formsubmit.co/4fde9edbfb51f746c4b3b26e6549019a ">
-            <label for="name">Name</label><br>
-            <input type="text" name="name">
-            <br>
-            <br>
-            <label for="comments">Comments</label><br>
-            <textarea form="contact_form" name="message" cols="15" rows="5"></textarea>
-            <br>
-            <br>
-            <input type="submit" value="Send">
-        </form> -->
+                <!-- Toggle button -->
+                <button
+                    class="navbar-toggler"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent"
+                    aria-controls="navbarSupportedContent"
+                    aria-expanded="false"
+                    aria-label="Toggle navigation"
+                >
+                    <i class="fas fa-bars"></i>
+                </button>
+
+                <!-- Collapsible wrapper -->
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <!-- Left links -->
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0 w-100 justify-content-end">
+                        <li class="nav-item">
+                            <a class="nav-link nav-color hover-underline-animation fs-5" href="#about_me">About Me</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link nav-color hover-underline-animation fs-5" href="#education">Education</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link nav-color hover-underline-animation fs-5" href="#skills">Skills</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link nav-color hover-underline-animation fs-5" href="#project">Projects</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link nav-color hover-underline-animation fs-5" href="#contact_me">Contact Me</a>
+                        </li>
+                    </ul>
+                    <!-- Left links -->
+                </div>
+                <!-- Collapsible wrapper -->
+            </div>
+            <!-- Container wrapper -->
+        </nav>
+
+        <div class="whole_page">
+            <!-- Intro -->
+            <div class="info_main_content">
+                <div class="image_info">
+                    <img src="img/my_pic.JPG" alt="My Picture" width="300px">
+                </div>
+                <div class="text_info">
+                    <h1>Hello there!<br>
+                        My name is Wayne Célestin.
+                    </h1>
+                    <h3>Full Stack Web Developer</h3>
+                    <hr class="hr_title" style="margin: 0; width: 315px; height: 3px; color: #0040ff;">
+                    <div class="socials">
+                        <a href="https://github.com/WayneA330" target="_blank" class="link"><i class="fa-brands fa-github fa-2x"></i></a>
+                        <a href="https://linkedin.com/in/wayne-célestin-profile" target="_blank" class="link"><i class="fa-brands fa-linkedin fa-2x"></i></a>
+                        <a href="mailto:waynecelestin.a3@gmail.com" target="_blank" class="link"><i class="fa-solid fa-at fa-2x"></i></a>
+                        <a href="http://twitter.com/wayne_celestin" target="_blank" class="link"><i class="fa-brands fa-twitter fa-2x"></i></a>
+                    </div>
+                    <a href="img/Wayne_Celestin_CV.pdf" download="Wayne_Celestin_CV" class="btn btn-primary btn-md" role="button" style="margin-top: 15px;">Download CV</a>
+                </div>
+            </div>
+
+            <!-- About Me -->
+            <h2 id="about_me" style="margin-left: 10px; margin-top: 20px;">About Me</h2>
+            <hr class="hr_about" style="margin-left: 10px; width: 140px; height: 3px; color: #0040ff;">
+            <div class="about_me">
+                <div class="about_text">
+                    <h5>I am a Full Stack Web Developer who is very passionate and motivated about creating beautiful and interactive UI for clients according to their needs. Even though I am relatively new to web development, I am always open to learning new things and I can't wait to get started in this fantastic industry. I will do my best to complete all the tasks that are given to me on time and with the best quality possible.</h5>
+                </div>
+                <div class="about_pic">
+                    <img src="img/coding_pic.jpg" alt="My Picture">
+                </div>
+            </div>
+            
+            <!-- Education -->
+            <h2 id="education" style="margin-left: 10px; margin-top: 20px;">Education</h2>
+            <hr class="hr_about" style="margin-left: 10px; width: 140px; height: 3px; color: #0040ff;">
+            <div class="timeline_container">
+                <div class="timeline">
+                    <ul>
+                        <li>
+                            <span>March 2022 - May 2022</span>
+                            <div class="content">
+                                <h3>Developers Institute Mauritius</h3>
+                                <p>
+                                    I completed a Full-Stack Web Developer Course in which I learned a variety of technological skills in both front-end and back-end development.
+                                </p>
+                            </div>
+                        </li>
+                        <li>
+                            <span>January 2009 - February 2022</span>
+                            <div class="content">
+                                <h3>Morning Star School</h3>
+                                <p>
+                                    I completed O'Level Certificate and ICCE General (SC), Intermediate, and Advanced Certificate (HSC).
+                                </p>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Skills -->
+            <h2 id="skills" style="margin-left: 10px; margin-top: 20px;">Skills</h2>
+            <hr class="hr_about" style="margin-left: 10px; width: 75px; height: 3px; color: #0040ff;">
+            <div class="skill">
+                <div class="skill_text">
+                    <h5>I have learned a variety of skills and technologies that are consistently enabling me to be able to perform as a Full Stack Web Developer. I am consistently trying to improve my skills to be able to perform at maximum efficiency at all times.</h5>
+                </div>
+                <div class="skill_progress">
+                    <div class="progress" style="height: 20px;">
+                        <span>HTML5</span><div class="progress-bar" role="progressbar" style="width: 63%;" aria-valuenow="63" aria-valuemin="0" aria-valuemax="100">70%</div>
+                    </div>
+                    <div class="progress" style="height: 20px;">
+                        <span>CSS3</span><div class="progress-bar" role="progressbar" style="width: 55%;" aria-valuenow="55" aria-valuemin="0" aria-valuemax="100">65%</div>
+                    </div>
+                    <div class="progress" style="height: 20px;">
+                        <span>Javascript</span><div class="progress-bar" role="progressbar" style="width: 39%;" aria-valuenow="39" aria-valuemin="0" aria-valuemax="100">45%</div>
+                    </div>
+                    <div class="progress" style="height: 20px;">
+                        <span>Bootstrap</span><div class="progress-bar" role="progressbar" style="width: 63%;" aria-valuenow="63" aria-valuemin="0" aria-valuemax="100">70%</div>
+                    </div>
+                    <div class="progress" style="height: 20px;">
+                        <span>React</span><div class="progress-bar" role="progressbar" style="width: 30%;" aria-valuenow="30" aria-valuemin="0" aria-valuemax="100">30%</div>
+                    </div>
+                    <div class="progress" style="height: 20px;">
+                        <span>React Native</span><div class="progress-bar" role="progressbar" style="width: 25%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">25%</div>
+                    </div>
+                    <div class="progress" style="height: 20px;">
+                        <span>Bootstrap</span><div class="progress-bar" role="progressbar" style="width: 63%;" aria-valuenow="63" aria-valuemin="0" aria-valuemax="100">70%</div>
+                    </div>
+                    <div class="progress" style="height: 20px;">
+                        <span>Git</span><div class="progress-bar" role="progressbar" style="width: 66%;" aria-valuenow="66" aria-valuemin="0" aria-valuemax="100">74%</div>
+                    </div>
+                    <div class="progress" style="height: 20px;">
+                        <span>Node.js</span><div class="progress-bar" role="progressbar" style="width: 43%;" aria-valuenow="43" aria-valuemin="0" aria-valuemax="100">47%</div>
+                    </div>
+                    <div class="progress" style="height: 20px;">
+                        <span>SQL</span><div class="progress-bar" role="progressbar" style="width: 55%;" aria-valuenow="55" aria-valuemin="0" aria-valuemax="100">65%</div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Project -->
+            <h2 id="project" style="margin-left: 10px; margin-top: 20px;">Projects</h2>
+            <hr class="hr_about" style="margin-left: 10px; width: 120px; height: 3px; color: #0040ff;">
+            <div class="project">
+                <!-- Puckman -->
+                <div class="project_card grow">
+                    <div class="project_text">
+                        <h4 style="text-align: center; margin-bottom: 15px;">Puckman Returns</h4>
+                        <p>We wanted to create a more modern version of the Pac-Man game to test and improve my skills in Javascript.</p>
+                    </div>
+                    <p>Technologies used:</p>
+                    <ol>
+                        <li>HTML5</li>
+                        <li>CSS3</li>
+                        <li>Javascript</li>
+                    </ol>
+                    <div class="project_btn">
+                        <a href="https://github.com/WayneA330/Hackathon_1" class="btn btn-primary btn-md" role="button" target="_blank">GitHub</a>
+                        <a href="https://puckman-returns.netlify.app/" class="btn btn-primary btn-md" role="button" target="_blank">View Project</a>
+                    </div>
+                </div>
+
+                <!-- Nadi'Miel Chamarel -->
+                <div class="project_card grow">
+                    <div class="project_text">
+                        <h4 style="text-align: center; margin-bottom: 15px;">Nadi'Miel Chamarel</h4>
+                        <p>We created an e-commerce website for a SME located in Chamarel, Mauritius, who was struggling to sell their products.</p>
+                    </div>
+                    <p>Technologies used:</p>
+                    <ol>
+                        <li>HTML5</li>
+                        <li>CSS3</li>
+                        <li>Javascript</li>
+                        <li>Node.js</li>
+                        <li>SQL</li>
+                        <li>Bootstrap</li>
+                    </ol>
+                    <div class="project_btn">
+                        <a href="https://github.com/WayneA330/NadiMiel-Chamarel-Website" class="btn btn-primary btn-md" role="button" target="_blank">GitHub</a>
+                        <a href="#" class="btn btn-primary btn-md" role="button" target="_blank">View Project</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Contact Me -->
+            <h2 id="contact_me" style="margin-left: 10px; margin-top: 20px;">Contact Me</h2>
+            <hr class="hr_about" style="margin-left: 10px; width: 165px; height: 3px; color: #0040ff;">
+            <div class="container_form">
+                <div class="contact">
+                    <form id="contact_form" action="https://formsubmit.co/4fde9edbfb51f746c4b3b26e6549019a" method="POST">
+                        <div class="form-group">
+                          <label for="name">Name</label>
+                          <input type="text" class="form-control" id="name" name="name" aria-describedby="emailHelp" placeholder="Please enter your name">
+                        </div>
+                        <div class="form-group">
+                          <label for="email">Email</label>
+                          <input type="email" class="form-control" id="email" name="email" placeholder="Please enter your email">
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Message Me</label>
+                            <textarea form="contact_form" name="message" id="message" class="form-control" rows="5" placeholder="Please write your message here"></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary" style="display: block; margin-top: 10px; margin-left: auto; margin-right: auto;">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
         <script src="script.js"></script>
     </body>
 </html>
