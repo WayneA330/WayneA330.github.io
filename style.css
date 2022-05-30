@@ -4,6 +4,16 @@
     font-family: 'Lato', sans-serif;
 }
 
+/* Scroll Tracker */
+.scroll-tracker {
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    height: 0.5rem;
+    background-color: #075ce6;
+    transform-origin: left;
+}
+
 /* Navbar */
 .hover-underline-animation {
     display: inline-block;
